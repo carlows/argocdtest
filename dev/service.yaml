@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Service
-namespace: carlos-namespace
 metadata:
   name: myapp-service
+  namespace: carlost-test
 spec:
   selector:
     app: myapp
